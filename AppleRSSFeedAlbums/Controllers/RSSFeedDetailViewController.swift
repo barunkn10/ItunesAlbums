@@ -42,7 +42,7 @@ final class RSSFeedDetailViewController: UIViewController {
             return
         }
         
-        let albumImageView = UIImageView(image: UIImage(named: "placeholderImage"))
+        let albumImageView = UIImageView(image: UIImage(named: "AppleMusic"))
         RSSFeedImageCache.image(for: aUrl) { image in
             albumImageView.image = image
         }
