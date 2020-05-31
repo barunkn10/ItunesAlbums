@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD42A408247C2FB30000F9AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A407247C2FB30000F9AC /* AppDelegate.swift */; };
+		AD42A40A247C2FB30000F9AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A409247C2FB30000F9AC /* SceneDelegate.swift */; };
+		AD42A411247C2FB50000F9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD42A410247C2FB50000F9AC /* Assets.xcassets */; };
+		AD42A414247C2FB50000F9AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42A412247C2FB50000F9AC /* LaunchScreen.storyboard */; };
+		AD42A41F247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A41E247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.swift */; };
+		AD42A42A247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A429247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.swift */; };
+		AD42A442247C3C3A0000F9AC /* RSSFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A441247C3C3A0000F9AC /* RSSFeedDetailViewController.swift */; };
+		AD42A443247C3C3A0000F9AC /* RSSFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A441247C3C3A0000F9AC /* RSSFeedDetailViewController.swift */; };
+		AD42A444247C3C3A0000F9AC /* RSSFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A441247C3C3A0000F9AC /* RSSFeedDetailViewController.swift */; };
+		AD42A446247C3C5A0000F9AC /* RSSFeedMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A445247C3C5A0000F9AC /* RSSFeedMainViewController.swift */; };
+		AD42A447247C3C5A0000F9AC /* RSSFeedMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A445247C3C5A0000F9AC /* RSSFeedMainViewController.swift */; };
+		AD42A448247C3C5A0000F9AC /* RSSFeedMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A445247C3C5A0000F9AC /* RSSFeedMainViewController.swift */; };
+		AD42A44A247C40E20000F9AC /* RSSFeedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A449247C40E20000F9AC /* RSSFeedInfo.swift */; };
+		AD42A44B247C40E20000F9AC /* RSSFeedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A449247C40E20000F9AC /* RSSFeedInfo.swift */; };
+		AD42A44C247C40E20000F9AC /* RSSFeedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A449247C40E20000F9AC /* RSSFeedInfo.swift */; };
+		AD42A44E247C51C00000F9AC /* RSSFeedAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A44D247C51C00000F9AC /* RSSFeedAlbum.swift */; };
+		AD42A44F247C51C00000F9AC /* RSSFeedAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A44D247C51C00000F9AC /* RSSFeedAlbum.swift */; };
+		AD42A450247C51C00000F9AC /* RSSFeedAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A44D247C51C00000F9AC /* RSSFeedAlbum.swift */; };
+		AD42A452247CBD000000F9AC /* RSSFeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A451247CBD000000F9AC /* RSSFeedData.swift */; };
+		AD42A453247CBD000000F9AC /* RSSFeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A451247CBD000000F9AC /* RSSFeedData.swift */; };
+		AD42A454247CBD000000F9AC /* RSSFeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A451247CBD000000F9AC /* RSSFeedData.swift */; };
+		AD42A456247CBEA20000F9AC /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A455247CBEA20000F9AC /* RSSFeed.swift */; };
+		AD42A457247CBEA20000F9AC /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A455247CBEA20000F9AC /* RSSFeed.swift */; };
+		AD42A458247CBEA20000F9AC /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A455247CBEA20000F9AC /* RSSFeed.swift */; };
+		AD42A45A247CC4C70000F9AC /* RSSFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A459247CC4C70000F9AC /* RSSFeedTableViewCell.swift */; };
+		AD42A45B247CC4C70000F9AC /* RSSFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A459247CC4C70000F9AC /* RSSFeedTableViewCell.swift */; };
+		AD42A45C247CC4C70000F9AC /* RSSFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A459247CC4C70000F9AC /* RSSFeedTableViewCell.swift */; };
+		AD42A45E247CCB7D0000F9AC /* RSSFeedImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A45D247CCB7D0000F9AC /* RSSFeedImageCache.swift */; };
+		AD42A45F247CCB7D0000F9AC /* RSSFeedImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A45D247CCB7D0000F9AC /* RSSFeedImageCache.swift */; };
+		AD42A460247CCB7D0000F9AC /* RSSFeedImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A45D247CCB7D0000F9AC /* RSSFeedImageCache.swift */; };
+		AD42A463247CD0180000F9AC /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A462247CD0180000F9AC /* DateFormatterExtensions.swift */; };
+		AD42A464247CD0180000F9AC /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A462247CD0180000F9AC /* DateFormatterExtensions.swift */; };
+		AD42A465247CD0180000F9AC /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD42A462247CD0180000F9AC /* DateFormatterExtensions.swift */; };
+		ADB810BA24834B440015FD52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB810B924834B440015FD52 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD42A41B247C2FB50000F9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42A3FC247C2FB30000F9AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42A403247C2FB30000F9AC;
+			remoteInfo = AppleRSSFeedAlbums;
+		};
+		AD42A426247C2FB50000F9AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42A3FC247C2FB30000F9AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42A403247C2FB30000F9AC;
+			remoteInfo = AppleRSSFeedAlbums;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD42A404247C2FB30000F9AC /* AppleRSSFeedAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleRSSFeedAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42A407247C2FB30000F9AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD42A409247C2FB30000F9AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD42A410247C2FB50000F9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD42A413247C2FB50000F9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD42A415247C2FB50000F9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD42A41A247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleRSSFeedAlbumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42A41E247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleRSSFeedAlbumsTests.swift; sourceTree = "<group>"; };
+		AD42A420247C2FB50000F9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD42A425247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleRSSFeedAlbumsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42A429247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleRSSFeedAlbumsUITests.swift; sourceTree = "<group>"; };
+		AD42A42B247C2FB50000F9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD42A441247C3C3A0000F9AC /* RSSFeedDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedDetailViewController.swift; sourceTree = "<group>"; };
+		AD42A445247C3C5A0000F9AC /* RSSFeedMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedMainViewController.swift; sourceTree = "<group>"; };
+		AD42A449247C40E20000F9AC /* RSSFeedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedInfo.swift; sourceTree = "<group>"; };
+		AD42A44D247C51C00000F9AC /* RSSFeedAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedAlbum.swift; sourceTree = "<group>"; };
+		AD42A451247CBD000000F9AC /* RSSFeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedData.swift; sourceTree = "<group>"; };
+		AD42A455247CBEA20000F9AC /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
+		AD42A459247CC4C70000F9AC /* RSSFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedTableViewCell.swift; sourceTree = "<group>"; };
+		AD42A45D247CCB7D0000F9AC /* RSSFeedImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedImageCache.swift; sourceTree = "<group>"; };
+		AD42A462247CD0180000F9AC /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
+		ADB810B924834B440015FD52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD42A401247C2FB30000F9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42A417247C2FB50000F9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42A422247C2FB50000F9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD42A3FB247C2FB30000F9AC = {
+			isa = PBXGroup;
+			children = (
+				AD42A406247C2FB30000F9AC /* AppleRSSFeedAlbums */,
+				AD42A41D247C2FB50000F9AC /* AppleRSSFeedAlbumsTests */,
+				AD42A428247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests */,
+				AD42A405247C2FB30000F9AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD42A405247C2FB30000F9AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A404247C2FB30000F9AC /* AppleRSSFeedAlbums.app */,
+				AD42A41A247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.xctest */,
+				AD42A425247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD42A406247C2FB30000F9AC /* AppleRSSFeedAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A438247C37BB0000F9AC /* Web Services */,
+				AD42A43A247C39510000F9AC /* Models */,
+				AD42A43B247C395B0000F9AC /* Views */,
+				AD42A43C247C396C0000F9AC /* Controllers */,
+				AD42A461247CCFA90000F9AC /* Extensions */,
+				AD42A439247C37F90000F9AC /* Application */,
+			);
+			path = AppleRSSFeedAlbums;
+			sourceTree = "<group>";
+		};
+		AD42A41D247C2FB50000F9AC /* AppleRSSFeedAlbumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A41E247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.swift */,
+				AD42A420247C2FB50000F9AC /* Info.plist */,
+			);
+			path = AppleRSSFeedAlbumsTests;
+			sourceTree = "<group>";
+		};
+		AD42A428247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A429247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.swift */,
+				AD42A42B247C2FB50000F9AC /* Info.plist */,
+			);
+			path = AppleRSSFeedAlbumsUITests;
+			sourceTree = "<group>";
+		};
+		AD42A438247C37BB0000F9AC /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A449247C40E20000F9AC /* RSSFeedInfo.swift */,
+				AD42A45D247CCB7D0000F9AC /* RSSFeedImageCache.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		AD42A439247C37F90000F9AC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A407247C2FB30000F9AC /* AppDelegate.swift */,
+				AD42A409247C2FB30000F9AC /* SceneDelegate.swift */,
+				AD42A412247C2FB50000F9AC /* LaunchScreen.storyboard */,
+				AD42A415247C2FB50000F9AC /* Info.plist */,
+				AD42A410247C2FB50000F9AC /* Assets.xcassets */,
+				ADB810B924834B440015FD52 /* Default-568h@2x.png */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AD42A43A247C39510000F9AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A44D247C51C00000F9AC /* RSSFeedAlbum.swift */,
+				AD42A451247CBD000000F9AC /* RSSFeedData.swift */,
+				AD42A455247CBEA20000F9AC /* RSSFeed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD42A43B247C395B0000F9AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A459247CC4C70000F9AC /* RSSFeedTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD42A43C247C396C0000F9AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A445247C3C5A0000F9AC /* RSSFeedMainViewController.swift */,
+				AD42A441247C3C3A0000F9AC /* RSSFeedDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD42A461247CCFA90000F9AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD42A462247CD0180000F9AC /* DateFormatterExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD42A403247C2FB30000F9AC /* AppleRSSFeedAlbums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42A42E247C2FB50000F9AC /* Build configuration list for PBXNativeTarget "AppleRSSFeedAlbums" */;
+			buildPhases = (
+				AD42A400247C2FB30000F9AC /* Sources */,
+				AD42A401247C2FB30000F9AC /* Frameworks */,
+				AD42A402247C2FB30000F9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleRSSFeedAlbums;
+			productName = AppleRSSFeedAlbums;
+			productReference = AD42A404247C2FB30000F9AC /* AppleRSSFeedAlbums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD42A419247C2FB50000F9AC /* AppleRSSFeedAlbumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42A431247C2FB50000F9AC /* Build configuration list for PBXNativeTarget "AppleRSSFeedAlbumsTests" */;
+			buildPhases = (
+				AD42A416247C2FB50000F9AC /* Sources */,
+				AD42A417247C2FB50000F9AC /* Frameworks */,
+				AD42A418247C2FB50000F9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42A41C247C2FB50000F9AC /* PBXTargetDependency */,
+			);
+			name = AppleRSSFeedAlbumsTests;
+			productName = AppleRSSFeedAlbumsTests;
+			productReference = AD42A41A247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD42A424247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42A434247C2FB50000F9AC /* Build configuration list for PBXNativeTarget "AppleRSSFeedAlbumsUITests" */;
+			buildPhases = (
+				AD42A421247C2FB50000F9AC /* Sources */,
+				AD42A422247C2FB50000F9AC /* Frameworks */,
+				AD42A423247C2FB50000F9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42A427247C2FB50000F9AC /* PBXTargetDependency */,
+			);
+			name = AppleRSSFeedAlbumsUITests;
+			productName = AppleRSSFeedAlbumsUITests;
+			productReference = AD42A425247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD42A3FC247C2FB30000F9AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Barun Nandi";
+				TargetAttributes = {
+					AD42A403247C2FB30000F9AC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AD42A419247C2FB50000F9AC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AD42A403247C2FB30000F9AC;
+					};
+					AD42A424247C2FB50000F9AC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AD42A403247C2FB30000F9AC;
+					};
+				};
+			};
+			buildConfigurationList = AD42A3FF247C2FB30000F9AC /* Build configuration list for PBXProject "AppleRSSFeedAlbums" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD42A3FB247C2FB30000F9AC;
+			productRefGroup = AD42A405247C2FB30000F9AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD42A403247C2FB30000F9AC /* AppleRSSFeedAlbums */,
+				AD42A419247C2FB50000F9AC /* AppleRSSFeedAlbumsTests */,
+				AD42A424247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD42A402247C2FB30000F9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42A414247C2FB50000F9AC /* LaunchScreen.storyboard in Resources */,
+				AD42A411247C2FB50000F9AC /* Assets.xcassets in Resources */,
+				ADB810BA24834B440015FD52 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42A418247C2FB50000F9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42A423247C2FB50000F9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD42A400247C2FB30000F9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42A408247C2FB30000F9AC /* AppDelegate.swift in Sources */,
+				AD42A442247C3C3A0000F9AC /* RSSFeedDetailViewController.swift in Sources */,
+				AD42A446247C3C5A0000F9AC /* RSSFeedMainViewController.swift in Sources */,
+				AD42A45E247CCB7D0000F9AC /* RSSFeedImageCache.swift in Sources */,
+				AD42A44A247C40E20000F9AC /* RSSFeedInfo.swift in Sources */,
+				AD42A463247CD0180000F9AC /* DateFormatterExtensions.swift in Sources */,
+				AD42A456247CBEA20000F9AC /* RSSFeed.swift in Sources */,
+				AD42A45A247CC4C70000F9AC /* RSSFeedTableViewCell.swift in Sources */,
+				AD42A452247CBD000000F9AC /* RSSFeedData.swift in Sources */,
+				AD42A44E247C51C00000F9AC /* RSSFeedAlbum.swift in Sources */,
+				AD42A40A247C2FB30000F9AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42A416247C2FB50000F9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42A44B247C40E20000F9AC /* RSSFeedInfo.swift in Sources */,
+				AD42A443247C3C3A0000F9AC /* RSSFeedDetailViewController.swift in Sources */,
+				AD42A447247C3C5A0000F9AC /* RSSFeedMainViewController.swift in Sources */,
+				AD42A41F247C2FB50000F9AC /* AppleRSSFeedAlbumsTests.swift in Sources */,
+				AD42A45B247CC4C70000F9AC /* RSSFeedTableViewCell.swift in Sources */,
+				AD42A457247CBEA20000F9AC /* RSSFeed.swift in Sources */,
+				AD42A464247CD0180000F9AC /* DateFormatterExtensions.swift in Sources */,
+				AD42A453247CBD000000F9AC /* RSSFeedData.swift in Sources */,
+				AD42A45F247CCB7D0000F9AC /* RSSFeedImageCache.swift in Sources */,
+				AD42A44F247C51C00000F9AC /* RSSFeedAlbum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42A421247C2FB50000F9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42A44C247C40E20000F9AC /* RSSFeedInfo.swift in Sources */,
+				AD42A444247C3C3A0000F9AC /* RSSFeedDetailViewController.swift in Sources */,
+				AD42A448247C3C5A0000F9AC /* RSSFeedMainViewController.swift in Sources */,
+				AD42A42A247C2FB50000F9AC /* AppleRSSFeedAlbumsUITests.swift in Sources */,
+				AD42A45C247CC4C70000F9AC /* RSSFeedTableViewCell.swift in Sources */,
+				AD42A458247CBEA20000F9AC /* RSSFeed.swift in Sources */,
+				AD42A465247CD0180000F9AC /* DateFormatterExtensions.swift in Sources */,
+				AD42A454247CBD000000F9AC /* RSSFeedData.swift in Sources */,
+				AD42A460247CCB7D0000F9AC /* RSSFeedImageCache.swift in Sources */,
+				AD42A450247C51C00000F9AC /* RSSFeedAlbum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD42A41C247C2FB50000F9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42A403247C2FB30000F9AC /* AppleRSSFeedAlbums */;
+			targetProxy = AD42A41B247C2FB50000F9AC /* PBXContainerItemProxy */;
+		};
+		AD42A427247C2FB50000F9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42A403247C2FB30000F9AC /* AppleRSSFeedAlbums */;
+			targetProxy = AD42A426247C2FB50000F9AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD42A412247C2FB50000F9AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42A413247C2FB50000F9AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD42A42C247C2FB50000F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD42A42D247C2FB50000F9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD42A42F247C2FB50000F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G49HE3KR2;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleRSSFeedAlbums/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barunnandiu.AppleRSSFeedAlbums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD42A430247C2FB50000F9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G49HE3KR2;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleRSSFeedAlbums/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barunnandiu.AppleRSSFeedAlbums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD42A432247C2FB50000F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G49HE3KR2;
+				INFOPLIST_FILE = AppleRSSFeedAlbumsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barunnandiu.AppleRSSFeedAlbumsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleRSSFeedAlbums.app/AppleRSSFeedAlbums";
+			};
+			name = Debug;
+		};
+		AD42A433247C2FB50000F9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G49HE3KR2;
+				INFOPLIST_FILE = AppleRSSFeedAlbumsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barunnandiu.AppleRSSFeedAlbumsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleRSSFeedAlbums.app/AppleRSSFeedAlbums";
+			};
+			name = Release;
+		};
+		AD42A435247C2FB50000F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G49HE3KR2;
+				INFOPLIST_FILE = AppleRSSFeedAlbumsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barunnandiu.AppleRSSFeedAlbumsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleRSSFeedAlbums;
+			};
+			name = Debug;
+		};
+		AD42A436247C2FB50000F9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G49HE3KR2;
+				INFOPLIST_FILE = AppleRSSFeedAlbumsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.barunnandiu.AppleRSSFeedAlbumsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleRSSFeedAlbums;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD42A3FF247C2FB30000F9AC /* Build configuration list for PBXProject "AppleRSSFeedAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42A42C247C2FB50000F9AC /* Debug */,
+				AD42A42D247C2FB50000F9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42A42E247C2FB50000F9AC /* Build configuration list for PBXNativeTarget "AppleRSSFeedAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42A42F247C2FB50000F9AC /* Debug */,
+				AD42A430247C2FB50000F9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42A431247C2FB50000F9AC /* Build configuration list for PBXNativeTarget "AppleRSSFeedAlbumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42A432247C2FB50000F9AC /* Debug */,
+				AD42A433247C2FB50000F9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42A434247C2FB50000F9AC /* Build configuration list for PBXNativeTarget "AppleRSSFeedAlbumsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42A435247C2FB50000F9AC /* Debug */,
+				AD42A436247C2FB50000F9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD42A3FC247C2FB30000F9AC /* Project object */;
+}
